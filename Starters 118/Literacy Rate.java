@@ -13,7 +13,7 @@ class Codechef
             double P = sc.nextDouble();
             double L = sc.nextDouble();
             
-            double percentage = (double)(L/P)*100;
+            double percentage = ((double)L/P)*100;
             if(percentage >= 75){
                 System.out.println("YES");
             }
