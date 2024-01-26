@@ -17,9 +17,9 @@ class Codechef
                 maxBitPos++;
             }
             
-            int msb = (1 << (maxBitPos-1));    // from msb we are finding the most nearest but smallest power of 2.
+            int smlNrPow2 = (1 << (maxBitPos-1));    // from smlNrPow2 we are finding the most nearest but smallest power of 2.
             
-            int a = msb;
+            int a = smlNrPow2;
             int b = X^a;
             
             System.out.println(b+" "+a);
